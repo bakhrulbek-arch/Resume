@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+/* Global Styles */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    max-width: 960px;
+    padding-left: 2.275%;
+    padding-right: 2.275%;
+}
+
+
+/* Header */
+
+header {
+    text-align: center;
+    display: block;
+}
+
+header .profileLogo {
+    width: 187px;
+    text-align: center;
+}
+
+header span {
+    width: 80px;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+header .profilePhoto {
+    background-color: rgba(237, 237, 237, 1.00);
+    width: 259px;
+    border-radius: 50%;
+    height: 259px;
+    clear: both;
+}
+
+header .profileHeader h1, .set_01 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+header .profileHeader h3, .set_02 {
+    font-family: sans-serif;
+    color: rgba(146, 146, 146, 1.00);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+hr {
+    background-color: rgba(208, 207, 207, 1.00);
+    height: 1px;
+}
+
+header .profileHeader p {
+    font-family: sans-serif;
+    color: rgba(146, 146, 146, 1.00);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+    overflow-y: auto;
+}
+
+header .socialNetworkNavBar {
+    text-align: center;
+    display: block;
+    margin-top: 60px;
+}
+
+header .socialNetworkNavBar .socialNetworkNav {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+header .socialNetworkNavBar .socialNetworkNav img:hover {
+    opacity: 0.5;
+}
+
+
+/* Main Content sections */
+
+.mainContent .section1 {
+    display: block;
+}
+
+.section1 .sectionTitle,
+.section2 .sectionTitle {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(146, 146, 146, 1.00);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section1 .sectionTitleRule,
+.section2 .sectionTitleRule {
+    margin: 0 3% 0 0;
+    float: left;
+    clear: both;
+}
+
+.section1 .sectionTitleRule2,
+.section2 .sectionTitleRule2 {
+    background-color: rgba(208, 207, 207, 1.00);
+    height: 1px;
+    padding: 0px;
+}
+
+.mainContent .section1 .section1Content {
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgba(208, 207, 207, 1.00);
+}
+
+.mainContent .section1 .section1Content span {
+    color: rgba(146, 146, 146, 1.00);
+    font-family: sans-serif;
+}
+
+.section2 .sectionContentTitle {
+    font-family: sans-serif;
+    color: rgba(146, 146, 146, 1.00);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.section2 .sectionContentSubTitle {
+    font-family: sans-serif;
+    color: rgba(68, 67, 67, 1.00);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section2 .sectionContent {
+    font-family: sans-serif;
+    color: rgba(146, 146, 146, 1.00);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.mainContent {
+    display: block;
+}
+
+.mainContent .externalResourcesNav .externalResources {
+    background-color: rgba(208, 207, 207, 1.00);
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 3%;
+    cursor: pointer;
+}
+
+.mainContent .externalResourcesNav .externalResources:hover {
+    background-color: rgba(153, 153, 153, 1.00);
+}
+
+.externalResourcesNav .externalResources a {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.stretch {
+    content: '';
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+/* Footer */
+
+footer .footerDisclaimer {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(104, 103, 103, 1.00);
+    font-weight: 700;
+}
+
+.year {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(104, 103, 103, 1.00) !important;
+    font-weight: 700 !important;
+}
+
+footer .footerDisclaimer span {
+    color: rgba(181, 178, 178, 1.00);
+    font-weight: 400;
+}
+
+footer .footerNote {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(104, 103, 103, 1.00);
+    font-weight: 700;
+}
+
+footer .footerNote span {
+    color: rgba(181, 178, 178, 1.00);
+    font-weight: 400;
+}
+
+.profil_photo-border {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logoPlaceholder {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialNetworkNav {
+    object-fit: cover;
+}
+
+.bord_photo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.photoauto {
+    background-image: url(https://source.unsplash.com/random);
+}
+
+.photoauto2 {
+    background-image: url(https://picsum.photos/200/300);
+}
+
+.photoauto3 {
+    background-image: url(https://picsum.photos/200);
+}
+
+.photo4 {
+    background-image: url(../images/cyber.jpg);
+}
+
+.img_tg {
+    text-decoration: none;
+}
+
+.social_block {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blc_window {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    background-color: black;
+    transition: 0.5s ease;
+}
+
+.blc_window_act {
+    width: 30%;
+}

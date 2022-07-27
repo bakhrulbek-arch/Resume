@@ -1,0 +1,41 @@
+.inp_edition {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0px;
+
+    background-color: rgba(0, 0, 0, 0.829);
+    transition: 2s ease;
+}
+
+.inp_edition_active {
+    height: 130px;
+}
+
+.inp_edit {
+    outline: none;
+    width: 250px;
+    padding: 3px 20px 3px;
+    font-size: 22px;
+}
+
+.edit {
+    border-radius: 7px;
+    background-color: rgba(240, 248, 255, 0.856);
+}
+
+.edit_hide {
+    visibility: hidden;
+}
+
+.save_change {
+    padding: 6px 15px;
+    border-radius: 7px;
+}
+
+.inf_edit {
+    color: white;
+    font-size: 22px;
+    margin: 9px;
+}
